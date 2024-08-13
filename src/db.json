@@ -1,0 +1,236 @@
+[
+    {
+      "id": 1,
+      "title": "Sicilian Pizza",
+      "image": "https://media.istockphoto.com/id/512911086/photo/pizza-margherita-with-tomato-and-mozzarella.jpg?s=612x612&w=0&k=20&c=75GERv_P99c73YoHYDZrWVFVR1IIk4LIV0nEvdfEHxU=",
+      "price": 28,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 2,
+      "title": "Oporto Bondi Burger",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8T3BvcnRvJTIwQm9uZGklMjBCdXJnZXJ8ZW58MHx8MHx8fDA%3D",
+      "price": 22,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Pizza",
+      "image": "https://media.istockphoto.com/id/692325810/photo/fresh-homemade-vegetarian-pizza.webp?b=1&s=612x612&w=0&k=20&c=eUCM9_1NqvJeVtPExW8-zVqhK6nx38ztSLA0-zjFAS4=",
+      "price": 17,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 4,
+      "title": "Chicken Burger King",
+      "image": "https://media.istockphoto.com/id/1783652847/photo/beefburger.jpg?s=612x612&w=0&k=20&c=NalMJEsh2F5PHGa5rx9YB0UDdOFa3G7jtn4OhB6MuNs=",
+      "price": 30,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 5,
+      "title": "Mega Meat Pizza",
+      "image": "https://media.istockphoto.com/id/1471216870/photo/pizza.jpg?s=612x612&w=0&k=20&c=uUjPEmxCVF8NU017XMPZ25QwyJ1JtgCAJW8wSRIfWuQ=",
+      "price": 38,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 6,
+      "title": "Potato Pizza",
+      "image": "https://media.istockphoto.com/id/547425288/photo/homemade-potato-rosemary-pizza.jpg?s=612x612&w=0&k=20&c=8NWbNdAOEbt9G8LchjEf_7QGfzkyjku5UJlkpcal7AQ=",
+      "price": 12,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 7,
+      "title": "Buffalo Chicken Pizza",
+      "image": "https://media.istockphoto.com/id/538687266/photo/pizza.jpg?s=612x612&w=0&k=20&c=eYvLreToIMX5_HuI907VdsGbP0yC5D_1uqmp2IX0mQY=",
+      "price": 50,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 8,
+      "title": "Double Chicken Burger",
+      "image": "https://media.istockphoto.com/id/1438301040/photo/closeup-of-crispy-double-fried-chicken-burger-on-wooden-board-on-blur-background.jpg?s=612x612&w=0&k=20&c=kuA8IbhkibJO9wuhpON8YByx-39OksZZ5A44i5fbyV8=",
+      "price": 30,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 9,
+      "title": "Crispy Chicken Burger",
+      "image": "https://media.istockphoto.com/id/521207406/photo/southern-country-fried-chicken-sandwich.jpg?s=612x612&w=0&k=20&c=XfttLSxEO2YAjop4Gy0CIb1L5N_OK1tTKxmkiPr3QD8=",
+      "price": 20,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 10,
+      "title": "Chicken Pepperoni Pizza",
+      "image": "https://media.istockphoto.com/id/1690899421/photo/pizza-with-mozzarella-cheese-onion-tuna-fish-tomato-sauce-pepper-basil-italian-pizza-on.jpg?s=612x612&w=0&k=20&c=BQjtsTLKXAURlxEKs4x5NZKrrEjKfuWASNYr7MoUS10=",
+      "price": 45,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 11,
+      "title": "Smokey Hand Burger",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvdWJsZSUyMGNoaWNrZW4lMjBidXJnZXJ8ZW58MHx8MHx8fDA%3D",
+      "price": 32,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 12,
+      "title": "Burger King",
+      "image": "https://plus.unsplash.com/premium_photo-1683619761492-639240d29bb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnVyZ2VyJTIwa2luZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "price": 35,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 13,
+      "title": "Chicken Nuggets Burger",
+      "image": "https://images.unsplash.com/photo-1585238340764-c6f1f6fe1a6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMG51Z2dldCUyMGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "price": 20,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 14,
+      "title": "PeriPeri Chicken Pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVyaXBlcmklMjBjaGlja2VuJTIwcGl6emF8ZW58MHx8MHx8fDA%3D",
+      "price": 27,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 15,
+      "title": "Jalapeno Chicken Burger",
+      "image": "https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amFsYXBlbm8lMjBjaGlja2VuJTIwYnVyZ2VyfGVufDB8fDB8fHww",
+      "price": 30,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 16,
+      "title": "Hut Veggie Pizza",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVydGklMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
+      "price": 28,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 17,
+      "title": "Veggie Lovers Pizza",
+      "image": "https://images.unsplash.com/photo-1593504049359-74330189a345?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHZlcmdpcyUyMGxvdmVyJTIwcGl6emF8ZW58MHx8MHx8fDA%3",
+      "price": 25,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 18,
+      "title": "Salad Burger",
+      "image": "https://images.unsplash.com/photo-1514996183542-72c207fee1e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2FsYWQlMjBidXJnZXJ8ZW58MHx8MHx8fDA%3D",
+      "price": 15,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 19,
+      "title": "Pie Wood Fired Pizza",
+      "image": "https://plus.unsplash.com/premium_photo-1667682942060-977925f9a54b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGllcmQlMjB3b29kJTIwcGl6emF8ZW58MHx8MHx8fDA%3D",
+      "price": 19,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 20,
+      "title": "Giant Pink Pig Pizza",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lhbnQlMjBwaWclMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D",
+      "price": 42,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 21,
+      "title": "Quadruple Cheeseburger",
+      "image": "https://images.unsplash.com/photo-1562817981-221763b0c0e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZXNlJTIwYnVyZ2VyfGVufDB8fDB8fHww",
+      "price": 40,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 22,
+      "title": "Meat Festa Pizza",
+      "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVhdCUyMGZlc3RhciUyMHBpenphfGVufDB8fDB8fHww",
+      "price": 25,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 23,
+      "title": "Barbecue Chicken Pizza",
+      "image": "https://media.istockphoto.com/id/484653761/photo/homemade-barbecue-chicken-pizza.jpg?s=612x612&w=0&k=20&c=x3yD7xtuU6KlXLza7mwDT6ImJCZvQfPAiKZCKhzsG0A=",
+      "price": 22,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 24,
+      "title": "Hamburger",
+      "image": "https://media.istockphoto.com/id/1909936550/photo/mayo-cheeseburger-feast.jpg?s=612x612&w=0&k=20&c=PwpZh3awYzgTTJ2wI5ip3wumVvomOdZ0WfD0SY7dMXw=",
+      "price": 13,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    },
+    {
+      "id": 25,
+      "title": "Caesars Cheese Pizza",
+      "image": "https://media.istockphoto.com/id/2158045886/photo/italian-specialty-pizza-with-chicken-slices-and-signature-tomato-sauce.jpg?s=612x612&w=0&k=20&c=Y7zYSOn-6uhCNTACdznImLFIlHmBQuf1FHGadwIfpjk=",
+      "price": 20,
+      "count": 1,
+      "isInterest": false,
+      "category": "Pizza"
+    },
+    {
+      "id": 26,
+      "title": "Chicken Tender",
+      "image": "https://media.istockphoto.com/id/2158928801/photo/nashville-chicken-sandwich.jpg?s=612x612&w=0&k=20&c=h8K1mY7Y_y5pDqdUkJ8twIiuF3yZG_b_8W6hqlPX0AU=",
+      "price": 15,
+      "count": 1,
+      "isInterest": false,
+      "category": "Burger"
+    }
+  ]
