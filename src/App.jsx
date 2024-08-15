@@ -25,7 +25,7 @@ const App = () => {
     return (
         <Router>
             <div className="App">
-                <Header cartItems={cartItems} onSearch={handleSearch} />
+                <Header cartItems={cartItems} setCartItems={setCartItems}onSearch={handleSearch} />
                 <nav>
                     <Link to="/">Products</Link>
                     <Link to="/cart">Cart ({cartItems.length})</Link>
@@ -40,6 +40,5 @@ const App = () => {
     );
 };
 
-
-
 export default App
+
