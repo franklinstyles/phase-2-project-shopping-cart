@@ -19,13 +19,13 @@ const App = () => {
     };
 
     const handleSearch = (query) => {
-        setSearchQuery(query);
+        setSearchQuery(query);  
     };
 
     return (
         <Router>
             <div className="App">
-                <Header cartItems={cartItems} setCartItems={setCartItems}onSearch={handleSearch} />
+                <Header cartItems={cartItems} setCartItems={setCartItems} onSearch={handleSearch} />
                 <nav className='nav'>
                    <button><Link to="/">Products</Link></button>
                    <button><Link to="/cart">Cart ({cartItems.length})</Link></button>
@@ -40,5 +40,4 @@ const App = () => {
     );
 };
 
-export default App
-
+export default App;
