@@ -18,10 +18,14 @@ body {
 }
 h1 {
   font-family: "Matemasie", sans-serif;
+  gap: 150px;
 }
 .search {
   display: flex;
   align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  width: 652px;
   border-radius: 16px;
   padding: 5px;
   background-color: transparent;
@@ -168,4 +172,19 @@ button:hover {
 }
 .checkout button:hover {
   background-color: #218838;
+}
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem; 
+  color: #ffffff; 
+  text-align: center; 
+  margin: 20px 0; 
+  padding: 10px; 
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
+  letter-spacing: 1px; 
+  text-transform: uppercase; 
+  line-height: 1.2; 
+  background: linear-gradient(90deg,black,grey); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
