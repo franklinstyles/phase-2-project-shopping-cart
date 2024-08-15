@@ -18,7 +18,7 @@ const App = () => {
         setCartItems(cartItems.filter(item => item.id !== product.id));
     };
 
-    const handleSearch = (query) => {
+    const handleSearch =  (query) => {
         setSearchQuery(query);  
     };
 
