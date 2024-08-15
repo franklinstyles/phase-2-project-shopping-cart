@@ -5,6 +5,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
     const total = cartItems.reduce((sum, item) => sum + item.price, 0);
     const navigate = useNavigate();
 
+    //handle checkout
     const handleCheckout = () => {
         if (cartItems.length > 0) {
             alert("Proceeding to checkout...");
