@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaSearchengin } from "react-icons/fa6";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
-const Header = ({onSearch}) => {
+
+const Header = ({onSearch, cartItems, setCartItems}) => {
+
+  // const [cartItems, setCartItems] = useState([])
+
+  const handleBuy = (item) => {
+    setCartItems((prevItems) => [...prevItems, item])
+  }
   return (
     <div className='header'>
         <h1>FOOD PALACE</h1>
@@ -13,11 +21,16 @@ const Header = ({onSearch}) => {
             placeholder='Search...'
             text='text'
             />
-            <label htmlFor="search"><FaSearchengin /></label>
         </div>
-        <div className='cart'>
+        <Link className='cart' to={"/cart"}>
         <MdOutlineShoppingCart />
-        </div>
+          {cartItems.length > 0 && (
+          <span>{cartItems.length}</span>
+            
+
+          )}
+        
+        </Link>
     </div>
   )
 }
