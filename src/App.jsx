@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Header from './components/Header';
+import Products from './components/Products';
+import Cart from './components/Cart';
+import Footer from './components/Footer';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+    const [cartItems, setCartItems] = useState([]);
+    const [searchQuery, setSearchQuery] = useState('');
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    const addToCart = (product) => {
+        setCartItems([...cartItems, product]);
+        window.alert(`${product.title} has been added to the cart`);
+    };
 
-export default App
+    const removeFromCart = (product) => {
+        setCartItems(cartItems.filter(item => item.id !== product.id));
+    };
+
+    const handleSearch = (query) => {
+        setSearchQuery(query);
+    };
+
+    return (
+        <Router>
+            <div className="App">
+                <Header cartItems={cartItems} onSearch={handleSearch} />
+                <nav>
+                    <Link to="/">Products</Link>
+                    <Link to="/cart">Cart ({cartItems.length})</Link>
+                </nav>
+                <Routes>
+                    <Route path="/" element={<Products addToCart={addToCart} searchQuery={searchQuery} />} />
+                    <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} />} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
+    );
+};
+
+export default App;
