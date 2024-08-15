@@ -3,7 +3,7 @@ body {
 }
 .header {
   display: flex;
-  gap:200px;
+  gap: 150px;
 }
 .search {
   padding: 5px;
@@ -11,7 +11,6 @@ body {
   align-items: center;
   gap: 20px;
   font-size: 20px;
-  border: 2px solid white;
   width: 652px;
   border-radius: 16px;
   height: 25px;
@@ -22,6 +21,7 @@ body {
   outline: transparent;
   border: none;
   background-color: transparent;
+  box-shadow: 0px 0px 30px rgba(227,228237,0.37);
 }
 .cart {
   position: absolute;
@@ -29,6 +29,19 @@ body {
   font-size: 50px;
   margin: 15px;
 }
-.h1 {
-  text-shadow: 2px 2px #ff0000;
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem; 
+  color: #ffffff; 
+  text-align: center; 
+  margin: 20px 0; 
+  padding: 10px; 
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
+  letter-spacing: 1px; 
+  text-transform: uppercase; 
+  line-height: 1.2; 
+  background: linear-gradient(90deg,black,grey); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
+

@@ -13,7 +13,6 @@ const Header = ({onSearch}) => {
             placeholder='Search...'
             text='text'
             />
-            <label htmlFor="search"><FaSearchengin /></label>
         </div>
         <div className='cart'>
         <MdOutlineShoppingCart />
