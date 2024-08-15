@@ -42,6 +42,7 @@ body {
 h1 {
   font-family: "Matemasie", sans-serif;
   gap: 150px;
+  
 }
 .search {
   display: flex;
