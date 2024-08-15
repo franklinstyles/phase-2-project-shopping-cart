@@ -11,7 +11,7 @@ const App = () => {
 
     const addToCart = (product) => {
         setCartItems([...cartItems, product]);
-        window.alert(${product.title} has been added to the cart);
+        window.alert(`${product.title} has been added to the cart!`);
     };
 
     const removeFromCart = (product) => {
