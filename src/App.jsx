@@ -27,8 +27,8 @@ const App = () => {
             <div className="App">
                 <Header cartItems={cartItems} setCartItems={setCartItems}onSearch={handleSearch} />
                 <nav className='nav'>
-                    <button><Link to="/">Products</Link></button>
-                    <button><Link to="/cart">Cart ({cartItems.length})</Link></button>
+                    <Link to="/">Products</Link>
+                    <Link to="/cart">Cart ({cartItems.length})</Link>
                 </nav>
                 <Routes>
                     <Route path="/" element={<Products addToCart={addToCart} searchQuery={searchQuery} />} />
