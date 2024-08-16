@@ -38,7 +38,7 @@ To get started with this project, follow these steps:
    
 You can use this deployed link to access the app
 ```bash
-
+https://phase-2-project-shopping-cart.vercel.app/
 ```
 
 
