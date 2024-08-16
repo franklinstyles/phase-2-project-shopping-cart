@@ -34,13 +34,11 @@ To get started with this project, follow these steps:
     npm start
     ```
 
-   The app will be available at `http://localhost:3000` in your browser.
-
-   or
+   This will be the server of the app `https://shopping-cart-server-mocha.vercel.app`.
    
 You can use this deployed link to access the app
 ```bash
-https://shopping-cart-server-mocha.vercel.app
+
 ```
 
 
