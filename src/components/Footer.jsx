@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
             Ianoh
           </a>
           <a href="https://github.com/antoniodemax" target="_blank" rel="noopener noreferrer">
-            Anto
+            Anthony
           </a>
           <a href="https://github.com/Abdirahmanelyas" target="_blank" rel="noopener noreferrer">
             Elyas

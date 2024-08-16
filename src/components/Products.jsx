@@ -17,6 +17,11 @@ const Products = ({ addToCart, searchQuery }) => {
         product.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
+    const scrollToProducts = () => {
+        const productListElement = document.querySelector('.product-list');
+        productListElement.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className="product-container">
             <div className='welcome'>
@@ -24,6 +29,9 @@ const Products = ({ addToCart, searchQuery }) => {
                     <h1>Welcome to FoodPalace</h1>
                     <h2>It's not just food,<br />It's an experience</h2>
                     <p>Discover the best food in town</p>
+                    <button className='start-buying' onClick={scrollToProducts}>
+                        Start Buying
+                    </button>
                 </div>
                 <div className='welcome-image'>
                     <img src={Burger} alt="Food-palace" />
